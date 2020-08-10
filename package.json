@@ -2,11 +2,16 @@
   "date": "resume",
   "name": "betabridges",
   "version": "0.1.0",
+  "main": "index.js",
   "private": true,
   "engines": {
     "npm": "6.4.1",
     "node": "10.15.3"
 },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JIshanRandika/TestBeta"
+  },
   "dependencies": {
     "@datepicker-react/styled": "^2.7.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
