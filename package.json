@@ -54,17 +54,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "heroku-server": "cross-env SERVER_PROD_PORT=$PORT SERVER_PROD_HOST=0.0.0.0 npm run server",
-    "browser": "cross-env NODE_ENV=development WEBPACK_CONFIG=browser_dev webpack-dev-server --open",
-    "build": "cross-env NODE_ENV=production WEBPACK_CONFIG=browser_prod,server_prod webpack --colors",
-    "build-analyze": "cross-env BUNDLE_ANALYZER=1 NODE_ENV=production WEBPACK_CONFIG=browser_prod,server_prod webpack --colors",
-    "build-browser": "cross-env NODE_ENV=production WEBPACK_CONFIG=browser_prod webpack --colors",
     "build-run": "npm run build && npm run server",
-    "build-static": "cross-env NODE_ENV=production WEBPACK_CONFIG=static webpack --colors",
-    "build-static-run": "npm run build-static && npm run static",
-    "clean": "rimraf dist",
-    "lint": "eslint .",
-    "server": "node dist/server"
+    
     
   },
   "eslintConfig": {
